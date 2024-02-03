@@ -1,0 +1,47 @@
+h2 {
+    color: aqua;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Times New Roman;
+}
+p{
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    font-family: Algerian;
+    margin: 18px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    background-color: coral;
+}
+.navbar .logo a{
+    font-size: 40px;
+    font-width: 680;
+    color: cyan;
+    text-decoration: none;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+.navbar .menu a{
+    font-size: 25px;
+    font-weight: 450px;
+    color:chartreuse;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.navbar .menu a:hover{
+    color: blueviolet;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+}
+

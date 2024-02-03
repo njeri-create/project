@@ -1,0 +1,99 @@
+h2{
+    color:brown ;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Bodoni MT Condensed";
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: blue;
+}
+.navbar .logo a{
+    font-size: 38px;
+    font-weight: 600px;
+    color: chartreuse;
+    text-decoration: none;
+}
+.navbar .all-links{
+    display: flex;
+    position: relative;
+}
+.navbar .all-links a{
+    font-size: 30px;
+    font-weight: 400px;
+    color: blueviolet;
+    padding: 8px 0;
+    text-decoration: none;
+}
+.navbar .all-links li{
+    list-style: none;
+    margin: 0 8px;
+}
+.navbar .all-links a:hover{
+    color: cyan;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("Cute And Beautiful Girls HD Wallpapers - All HD Wallpapers");
+ }
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 30px;
+    color: deeppink;
+}
+.home .text-two{
+    font-size: 80px;
+    color: #eeff00;
+    font-weight: 650;
+    margin-left: 3px;
+}
+.home .text-three{
+    font-size: 30px;
+    color: bisque;
+    font-weight: 400;
+    margin: 4px 0;
+}
+.home .text-four{
+    font-size: 27px;
+    margin: 6px 0;
+    color: greenyellow;
+}
+.home .button button {
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 450;
+    background-color: magenta;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color:magenta;
+    background-color: white;
+    color: magneta;
+}
+.home .service-content{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
